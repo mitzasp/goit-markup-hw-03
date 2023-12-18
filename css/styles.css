@@ -65,7 +65,9 @@ img {
   justify-content: space-between;
 }
 .main-navigation {
+  display: flex;
   align-items: center;
+  height: 72px;
 }
 .logo {
   color: var(--IRIS);
@@ -115,6 +117,9 @@ img {
 /* Address */
 .address-container {
   font-style: normal;
+  height: 72px;
+  display: flex;
+  align-items: center;
 }
 .address-list {
   list-style: none;
