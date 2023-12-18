@@ -47,7 +47,6 @@ img {
 * {
   margin: 0;
 }
-
 /* Classes */
 /* Logo */
 .header {
@@ -65,6 +64,9 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.main-navigation {
+  align-items: center;
+}
 .logo {
   color: var(--IRIS);
   font-family: "Raleway", sans-serif;
@@ -75,9 +77,6 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
 }
-.link {
-  text-decoration: none;
-}
 .header-logo-second-part {
   color: var(--NAVY-BLUE);
   font-family: Raleway, sans-serif;
@@ -87,11 +86,9 @@ img {
   line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 /* Navigation list */
-.navigation-list,
-.list {
+.navigation-list {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-style: normal;
@@ -110,9 +107,6 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
-.link {
-  text-decoration: none;
-}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN);
@@ -122,8 +116,7 @@ img {
 .address-container {
   font-style: normal;
 }
-.address-list,
-.list {
+.address-list {
   list-style: none;
   min-width: none;
   min-height: max-content;
@@ -142,9 +135,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.link {
-  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -340,7 +330,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 450px;
+  max-width: 264px;
 }
 
 /* Portfolio page */
