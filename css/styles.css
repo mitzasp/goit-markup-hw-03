@@ -1,0 +1,226 @@
+:root {
+  --IRIS: #4d5ae5;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --WHITE: #fff;
+  --CLOUD: #f4f4fd;
+  --OCEAN: #404bbf;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+}
+/* Global Style */
+body {
+  color: #434455;
+  background-color: #ffffffff;
+  font-family: var(--text-font-family);
+}
+
+/* Classes */
+/* Logo */
+.logo {
+  color: var(--IRIS);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
+  text-decoration: none;
+}
+.header-logo-second-part {
+  color: var(--NAVY-BLUE);
+}
+/* Navigation list */
+.navigation-list,
+.list {
+  list-style: none;
+}
+.nav-link {
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--OCEAN);
+}
+
+/* Address */
+.address-container {
+  font-style: normal;
+}
+.address-list,
+.list {
+  list-style: none;
+}
+.address-link {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--OCEAN);
+}
+/* Hero Content */
+.hero-content {
+  background-color: var(--NAVY-BLUE);
+}
+.hero-title {
+  color: var(--WHITE);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.order-service-button {
+  color: var(--WHITE);
+  background-color: var(--IRIS);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: var(--OCEAN);
+}
+/* About section */
+.list {
+  list-style: none;
+}
+.about-subtitle {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.about-subtitle-description {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* What are we doing section */
+.what-are-we-doing-title {
+  color: var(--NAVY-BLUE);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.list {
+  list-style: none;
+}
+/* Our team section */
+.our-team-section {
+  background-color: var(--CLOUD);
+}
+.our-team-title {
+  color: var(--NAVY-BLUE);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.list {
+  list-style: none;
+  background-color: #ffffffff;
+}
+.our-team-subtitle {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.our-team-subtitle-description {
+  color: var(--SLATE);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Footer section */
+.footer-section {
+  background-color: var(--NAVY-BLUE);
+}
+.logo {
+  color: var(--IRIS);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
+  text-decoration: none;
+}
+.footer-logo-second-part {
+  color: var(--CLOUD);
+}
+.footer-description {
+  color: var(--CLOUD);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio page */
+.list {
+  list-style: none;
+}
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffffff;
+  background-color: var(--OCEAN);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.portfolio-title {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-title-description {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
